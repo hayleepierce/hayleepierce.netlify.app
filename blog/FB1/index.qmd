@@ -1,0 +1,18 @@
+---
+author: Haylee Pierce
+title: FB1
+date: '09/07/2023'
+date-format: MM/DD/YYYY
+categories: [post, FB, Week 1]
+description: <em>My week 1 professional précis for Fuzzing Book.</em>
+---
+
+::: {.justify}
+
+The "Introducation to Software Testing" within _Fuzzing Book_ highlights the importantance of testing code. Testing could be in the format of manually written test cases, automated tests, or run-time verification. The text emphasizes that it is **impossible** to ensure that your code is 100% error free. The programmer cannot fully anticipate all the possible inputs that users may try.
+
+This introducation made me relize how important it is to have other people look over your code. Others may be able to bring up possible inputs that you may not have anticipated. Having others view and test your programs can massively decrease the number of errors.
+
+:::
+
+{{< include /_back-blog.qmd >}}

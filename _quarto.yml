@@ -1,0 +1,65 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!_resources/"
+  preview:
+    port: 5550
+    browser: false
+    watch-inputs: true
+    navigate: false
+
+website:
+  title: "Haylee Pierce"
+  page-navigation: true
+  favicon: "icons/logo.jpg"
+  open-graph: true
+  site-url: https://hayleepierce.netlify.app
+  repo-url: https://github.com/hayleepierce/hayleepierce.netlify.app
+  issue-url: https://github.com/hayleepierce/hayleepierce.netlify.app/issues/new
+  repo-actions: [source, edit, issue]
+  repo-branch: "master"
+  search:
+    location: navbar
+    type: textbox
+  reader-mode: false
+  back-to-top-navigation: false
+  navbar:
+    left:
+      - href: blog/index.qmd
+        text: Blog
+
+format:
+  html:
+    # do not use embed-resources: true because this
+    # causes build times to take a very long time
+    # and builds will normally crash with an out
+    # of memory error from the JavaScript runtime
+    embed-resources: false
+    mainfont: Noto Sans
+    monofont: Noto Sans Mono
+    fontsize: 1.375em
+    theme:
+        - united
+        - united-light.scss
+    css: styles.css
+    toc: true
+    toc-title: "Contents"
+    code-copy: hover
+    code-overflow: wrap
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+    email-obfuscation: javascript
+    # note: smooth-scroll must false so as to
+    # ensure that the back to top button
+    # in the footer of the page works correctly
+    smooth-scroll: false
+    citations-hover: true
+    footnotes-hover: true
+    citeproc: true
+    appendix-style: default
+    # highlight external links in a special fashion
+    # and always open them in a new browser window
+    link-external-icon: true
+    link-external-newwindow: true
