@@ -1,6 +1,6 @@
 ---
 author: Haylee Pierce
-title: SE1
+title: SE1: Preface - Programming Over Time
 date: '09/06/2023'
 date-format: MM/DD/YYYY
 categories: [post, SE, Week 1]
