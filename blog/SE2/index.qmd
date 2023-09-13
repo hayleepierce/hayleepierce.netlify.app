@@ -1,0 +1,20 @@
+---
+author: Haylee Pierce
+title: SE2
+date: '09/13/2023'
+date-format: MM/DD/YYYY
+categories: [post, SE, Week 2]
+description: <em>My week 2 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+This chapter of _Software Engineering at Google_ ("What is Software Engineering") empasizes the importance of discussing decisions as a team. There should be a clear reason for why a team came to the conclusion they did, or as the author states not “because I said so." The trade-offs and costs need to be accessed during the team's decision making. Costs that need to be cosidered are not only the finacial costs, but also time and personnel costs. 
+
+The team needs to determine whether their project will be a short-term or a long-term project. Long-term projects are antcipated to be used for many years to come (or even indefinitely); therefore, keeping in mind the sustainability of the prograom is extremly important. Short-term project are antcipated to only be used for short periods of time, meaning the sustainability of the program is less importance, and the costs of trying to make it sustainable often outweigh the benefits.
+
+The information within this chapter can assist us in our work on Chasten. Is Chasten a long-term or short-term project? Is a feature worth implementing? What are the trade-offs that come with merging a PR? These are all questions that this chapter can help us answer.
+
+:::
+
+{{< include /_back-blog.qmd >}}
