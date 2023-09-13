@@ -1,6 +1,6 @@
 ---
 author: Haylee Pierce
-title: FB1: "Introducation to Software Testing"
+title: FB1 - "Introducation to Software Testing"
 date: '09/07/2023'
 date-format: MM/DD/YYYY
 categories: [post, FB, Week 1]

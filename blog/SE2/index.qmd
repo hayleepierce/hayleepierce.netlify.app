@@ -1,6 +1,6 @@
 ---
 author: Haylee Pierce
-title: SE2: "What is Software Engineering"
+title: SE2 - "What is Software Engineering"
 date: '09/13/2023'
 date-format: MM/DD/YYYY
 categories: [post, SE, Week 2]
