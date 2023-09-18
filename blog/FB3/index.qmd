@@ -1,6 +1,6 @@
 ---
 author: Haylee Pierce
-title: FB3 - "Fuzzing: Breaking Things with Random Inputs"
+title: FB3 - "Fuzzing"
 date: '09/18/2023'
 date-format: MM/DD/YYYY
 categories: [post, FB, Week 3]
