@@ -1,0 +1,20 @@
+---
+author: Haylee Pierce
+title: SE1 - "How to Work Well on Teams"
+date: '09/18/2023'
+date-format: MM/DD/YYYY
+categories: [post, SE, Week 3]
+description: <em>My week 3 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+This chapter of _Software Engineering_ ("How to Work Well on Teams) emphasises the importance of good social skills when working as a software engineer. It is a natural urge to want to keep your ideas/projects to yourself until you deem them "perfect". Although, this urge can be detrimental to the success of a project. It is more efficient to work in teams than alone; one person cannot possibly know everything there is about a topic. None of the suposed "idols" mentioned in the chapter got to where they are now by themselves. They may have had their ideas, but they were only realized because of the work of many others.
+
+This chapter also covers what you should **not** do when working with a team. Being able to compromise is one of the things you must be able to do when working in a team. You cannot always do things the way you wish when working with others. You must be considerate of your teammates thoughts/ideas. You may also not like another person on the team for any number of reasons. This dislike **cannot** change the way you interact with them when working on the project. You must treat every teammate as an equal and not be disrespectful to them or their ideas/work.
+
+The information from this chapter will be extremly useful for us going forward. Many of us may have history with each other the expands to the world outside this classroom (startup company). We must not allow that history to effect the way we interact with one another, for the health of our project (and grades).
+
+:::
+
+{{< include /_back-blog.qmd >}}
