@@ -11,7 +11,7 @@ description: <em>My week 4 professional précis for Fuzzing Book.</em>
 
 The "Mutation Analysis" chapter of _Fuzzing Book_ talks about injecting bugs into code to check if the tests are accurate; this is called _fault injection_. Writting each bug individually is not an effective or efficient way of checking test cases; therefore, the **MuFuctionAnalyzer** is used to create all the mutations (bugs) in the code. This work is done using the _abstract syntax tree_ (AST) representation of the program. Example of an AST:
 
-```
+```python
 Module(
     body=[
         FunctionDef(
