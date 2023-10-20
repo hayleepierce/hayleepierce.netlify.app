@@ -1,0 +1,64 @@
+---
+author: Haylee Pierce
+title: FB6 - "Fuzzing with Grammars"
+date: '10/20/2023'
+date-format: MM/DD/YYYY
+categories: [Fuzzing Book, Week 6]
+description: <em>My week 6 professional précis for Fuzzing Book.</em>
+---
+
+::: {.justify}
+
+The ["Fuzzing with Grammars"](https://www.fuzzingbook.org/html/Grammars.html) chapter of _Fuzzing Book_ talks about using grammars to specify a format for legal inputs of a program. This makes the use of fuzzing as a form of testing for a program much more efficient and effective.
+
+**Grammars** begin with a _start symbol_, which is followed by a set of _expansion rules_. Within a grammar, you must give a definition to every rule you create. The following is an example of a grammar:
+
+```python
+<start>   ::= <number>
+<number>  ::= <integer> | +<integer> | -<integer>
+<integer> ::= <digit> | <digit><integer>
+<digit>   ::= 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+```
+
+See that the first line is `<start>`; this is the _start symbol_. `<number>` is used within the start symbol, but you must define what a number is. A number (`<number>`) is defined as an integer, a positive integer, or a negative integer. Although, once again, you must define what an integer is. An integer (`<integer>`) is defined as a digit or a digit followed by another integer. But wait! What's a digit? A digit (`<digit>`) is defined as any number between `0` and `9`.
+
+This is just a basic grammar. Grammars can cover much more complex formats and expressions; therefore, making the use of grammars an excellent way to specify input format. This grammar would be used to create any number of inputs for use when fuzzing. The function `simple_grammar_fuzzer` from the chapter takes in a grammar and uses it to create inputs. Here is an example of a grammar used to create valid URLs:
+
+```python
+URL_GRAMMAR: Grammar = {
+    "<start>":
+        ["<url>"],
+    "<url>":
+        ["<scheme>://<authority><path><query>"],
+    "<scheme>":
+        ["http", "https", "ftp", "ftps"],
+    "<authority>":
+        ["<host>", "<host>:<port>", "<userinfo>@<host>", "<userinfo>@<host>:<port>"],
+    "<host>":  # Just a few
+        ["cispa.saarland", "www.google.com", "fuzzingbook.com"],
+    "<port>":
+        ["80", "8080", "<nat>"],
+    "<nat>":
+        ["<digit>", "<digit><digit>"],
+    "<digit>":
+        ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    "<userinfo>":  # Just one
+        ["user:password"],
+    "<path>":  # Just a few
+        ["", "/", "/<id>"],
+    "<id>":  # Just a few
+        ["abc", "def", "x<digit><digit>"],
+    "<query>":
+        ["", "?<params>"],
+    "<params>":
+        ["<param>", "<param>&<params>"],
+    "<param>":  # Just a few
+        ["<id>=<id>", "<id>=<nat>"],
+}
+```
+
+The content of this chapter could be helpful to use in the event that we decide to implement fuzzing into the testing of our program(s). We have many varying formats for our function inputs throughout of tool. We could use grammars to ensure that the inputs that are generated for testing adhere to the format and will make it passed the parser.
+
+:::
+
+{{< include /_back-blog.qmd >}}
