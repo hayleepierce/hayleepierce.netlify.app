@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: SE2 - "What is Software Engineering"
 date: '09/13/2023'
 date-format: MM/DD/YYYY
-categories: [post, SE, Week 2]
+categories: [Software Engineering at Google, Week 2]
 description: <em>My week 2 professional précis for Software Engineering at Google.</em>
 ---
 

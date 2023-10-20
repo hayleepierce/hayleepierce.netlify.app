@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: SE3 - "How to Work Well on Teams"
 date: '09/18/2023'
 date-format: MM/DD/YYYY
-categories: [post, SE, Week 3]
+categories: [Software Engineering at Google, Week 3]
 description: <em>My week 3 professional précis for Software Engineering at Google.</em>
 ---
 

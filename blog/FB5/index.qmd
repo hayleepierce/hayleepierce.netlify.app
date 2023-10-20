@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: FB5 - "Mutation-Based Fuzzing"
 date: '10/12/2023'
 date-format: MM/DD/YYYY
-categories: [post, FB, Week 5]
+categories: [Fuzzing Book, Week 5]
 description: <em>My week 5 professional précis for Fuzzing Book.</em>
 ---
 

@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: SE6 - "How to Lead a Team"
 date: '10/20/2023'
 date-format: MM/DD/YYYY
-categories: [post, SE, Week 6]
+categories: [Software Engineering at Google, Week 6]
 description: <em>My week 6 professional précis for Software Engineering at Google.</em>
 ---
 

@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: FB4 - "Mutation Analysis"
 date: '09/27/2023'
 date-format: MM/DD/YYYY
-categories: [post, FB, Week 4]
+categories: [Fuzzing Book, Week 4]
 description: <em>My week 4 professional précis for Fuzzing Book.</em>
 ---
 

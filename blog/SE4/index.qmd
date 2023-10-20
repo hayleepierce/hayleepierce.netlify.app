@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: SE4 - "Knowledge Sharing"
 date: '09/27/2023'
 date-format: MM/DD/YYYY
-categories: [post, SE, Week 4]
+categories: [Software Engineering at Google, Week 4]
 description: <em>My week 4 professional précis for Software Engineering at Google.</em>
 ---
 

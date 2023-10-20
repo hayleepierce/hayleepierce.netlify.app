@@ -3,7 +3,7 @@ author: Haylee Pierce
 title: FB1 - "Introducation to Software Testing"
 date: '09/07/2023'
 date-format: MM/DD/YYYY
-categories: [post, FB, Week 1]
+categories: [Fuzzing Book, Week 1]
 description: <em>My week 1 professional précis for Fuzzing Book.</em>
 ---
 
