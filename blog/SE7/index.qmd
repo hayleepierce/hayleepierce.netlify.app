@@ -1,0 +1,32 @@
+---
+author: Haylee Pierce
+title: SE7 - "Leading at Scale"
+date: '10/23/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 7]
+description: <em>My week 7 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["How to Lead a Team"](https://abseil.io/resources/swe-book/html/ch06.html) chapter of _Software Engineering_ talks about how a leader can best do their job and support their team. 
+
+The chapter focuses on _"the three Always of leadership"_:
+
+**Always Be Deciding**
+
+Being the leader of a team means that the majority, if not all, of the decision-making is up to you. To properly make these decisions, you must be able to identify the _blinders_ and the _trade-offs_ of each choice. A team typically acquires blinders when they have been working on a project for a long period of time; causing them to become "blind" to some aspects of the project. Blinders may inhibit you and/or your team from seeing a clear solution to a problem. Trade-offs are the most important part of decision-making. You must be able to identify the pros and cons of making a specific decision. A leader also has to be able to look back at the decisions they've made in the past to see if it is still applicable.
+
+**Always Be Leaving**
+
+It sounds very counter-intuitive to "always be leaving," but as a leader, your goal should be to create a self-sufficient team. This means that you should not _always_ have to be present. When a leader hovers around the team(s) too often not only does the team become dependent on the leader, but the leader is also likely to fall into micromanaging. It is crucial that, as a leader, you find a good balance between being present for your team, while also allowing them to complete tasks on their own.
+
+**Always Be Scaling**
+
+Succeding in completing a project or solving an issue in the software engineering field means you receive more work. Each time your team completes a project, a new, typically more complex, one is ready to take its place. This means that, as a leader, you must be able to adjust the workings of your team to best suit the new project's scale. Unfortunately, teams are unable to hire new people when increasing the scale of the project; therefore, the leader must find the best way to complete tasks with the team they have. This includes intentionally "dropping balls" and understanding the difference between _urgency_ and _importance_.
+
+This chapter provides some suggestions that could prove useful to our class moving forward. As we start working on our new project (and continue working on Chasten), it is important that we have a clear leader (or leaders), be that for the entire class or for temporary small groups. These leaders should implement the practices discussed in this chapter.
+
+:::
+
+{{< include /_back-blog.qmd >}}
