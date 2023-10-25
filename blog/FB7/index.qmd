@@ -15,9 +15,15 @@ The `simple_grammar_fuzzer()` function from the previous chapter uses a string-b
 
 This chapter covers the use of the more efficient tree-based algorithm. This algorithm utilizes derivation trees, which are made of up _nodes_. Nodes branching off of other nodes (_parent nodes_) are called _child nodes_. The node with no parent is called the _root node_ and nodes without any child nodes are called _leaf nodes_.
 
-The root node corresponds with the `` of the grammar. The next level of the grammar is then added to the tree as the child nodes of ``. Each of these children are then expanded and given child nodes based on the next line of the grammar. This continues until there are no more child nodes to be added; all the nodes are leafs. The chapter uses the function `expand_node_randomly()` to build trees. Here is an example of a derivation tree for the equation `2 + 2`:
+The root node corresponds with the `<start>` of the grammar. The next level of the grammar is then added to the tree as the child nodes of `<start>`. Each of these children are then expanded and given child nodes based on the next line of the grammar. This continues until there are no more child nodes to be added; all the nodes are leafs. The chapter uses the function `expand_node_randomly()` to build trees. Here is an example of a derivation tree for the equation `2 + 2`:
 
-![Derivation Tree](tree.png)
+:::
+::: {.center}
+
+![](tree.png)
+
+:::
+::: {.justify}
 
 As mentioned above this method of fuzzing is more efficient and allows the programmer to have more control. The function `expand_node_by_cost()` allows a minimum cost to be set; ensuring that the most efficient path is taken when building the tree. There is also a variant of this function that allows the user to build a tree always choosing the nodes with the _highest_ costs. This gives the user of the fuzzer control over the creation of the tree and the input it produces, as well as, allows the user to make the fuzzer run in the most efficient and effective way for their purposes.
 
