@@ -1,7 +1,7 @@
 ---
 author: Haylee Pierce
 title: SE8 - "Style Guides and Rules"
-date: '10/30/2023'
+date: '10/31/2023'
 date-format: MM/DD/YYYY
 categories: [Software Engineering at Google, Week 8]
 description: <em>My week 8 professional précis for Software Engineering at Google.</em>
