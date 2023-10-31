@@ -1,0 +1,23 @@
+---
+author: Haylee Pierce
+title: SE8 - "Style Guides and Rules"
+date: '10/30/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 8]
+description: <em>My week 8 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["Style Guides and Rules"](https://abseil.io/resources/swe-book/html/ch08.html) chapter of _Software Engineering_ covers why it is important for a company to have a set of _rules_ and _style guides_.
+
+Rules establish a companies values; what a company deems as "good" and "bad" behavior. Without a clear set of rules the employees will not know what is expected of them. Establishing rules and guidelines help to encourage they type of behavior and practices that will best suite the company.
+
+When creating rules, it is not a question of _what_, but _why_. All rules should be created for a reason that will benefit the company in someway and align with the companies values. Keeping these rules minimal and clear will not only make the current employees more likely to remember them, but will also make it easier for new employees to read and understand them.
+
+Style guides are used to establish a clear guideline for code writing. There is typically a different style guide for each programming language. Style guides ensure that all members of the team (current and new) are able to understand each others code and comments. Having style guides improves consistency, which increases the efficiency of the team.
+
+The practices discussed in this chapter will be useful to our class. We have already been given some rules/guidelines that we have been following. For example, the [commit conventives](https://www.conventionalcommits.org/en/v1.0.0/) that we have been using for Chasten. We could implement more rules and/or guidelines to ensure everyone is able understand and contribute to the project. Although, we should keep in mind that having too many rules could be detrimental to our team.
+:::
+
+{{< include /_back-blog.qmd >}}
