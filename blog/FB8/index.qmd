@@ -13,7 +13,7 @@ The ["Parsing Inputs"](https://www.fuzzingbook.org/html/Parser.html) chapter of 
 
 Two different parsers are mentioned in the chapter:
 
-###PEGParser
+**PEGParser**
 
 The PEGParser is efficient, but it can only utilize parsing expression grammars (PEG). Below is an example of a PEG:
 
@@ -27,7 +27,7 @@ The PEGParser will only match with the first rule that applies to the input. Tha
 
 PEGs cannot be translated to context-free grammars (CFGs). For the purpose of fuzzing, the ability to accept CFGs is extremely beneficial.
 
-###EarleyParser
+**EarleyParser**
 
 The EarleyParser will accept any context-free grammar (CFG). Below is an example of a CFG:
 
