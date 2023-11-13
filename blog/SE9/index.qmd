@@ -1,0 +1,36 @@
+---
+author: Haylee Pierce
+title: SE9 - "Code Review"
+date: '11/13/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 9]
+description: <em>My week 9 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["Code Review"](https://abseil.io/resources/swe-book/html/ch09.html) chapter of _Software Engineering_ discusses the importance of reviewing code.
+
+_Code reviews_ involve having the author of the code submitting it for review to one or more reviewers. The reviewer(s) will tag the change as "looks good to me," or **LGTM**, denoting that the change is approved. At Google there are three different reviews that have to give a LGTM before a change can be implemented. All three of these reviews can be done by one or more people:
+
+1. Another engineer (often a team member) verifies that the code is appropriate and does what the author claims.
+
+2. One of the code owners verifies that the code is appropriate for this part of the codebase.
+
+3. Someone with language "readability" verifies that the code conforms to the language's style and best practices.
+
+While these code review requirements do slow down the development of projects, the benefits far out-weighs the negatives. Here is a list of benefits code reviews can provide: 
+
+- Ensures:
+    - Code Correctness
+    - Comprehension of Code
+    - Code Consistency
+- Promotes:
+    - Team Ownership
+    - Knowledge Sharing
+- Provides a History
+
+We already do this in both of our project. We require approval from the _Chief Sofware Architect_, a _Technical Leader_ or the professor, and a class member. This chapter can be used to improve the review process we already have in place. It also allows us to undstand _why_ we have this process in place and how it benefits us.
+:::
+
+{{< include /_back-blog.qmd >}}
