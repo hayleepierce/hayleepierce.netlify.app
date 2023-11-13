@@ -1,0 +1,24 @@
+---
+author: Haylee Pierce
+title: FB9 - "Reducing Failure-Inducing Inputs"
+date: '11/13/2023'
+date-format: MM/DD/YYYY
+categories: [Fuzzing Book, Week 9]
+description: <em>My week 9 professional précis for Fuzzing Book.</em>
+---
+
+::: {.justify}
+
+The ["Reducing Failure-Inducing Inputs"](https://www.fuzzingbook.org/html/Reducer.html) chapter of _Fuzzing Book_ discusses how reducing failing inputs can be used in the debugging process. When your code fails using a large input, you want to be able to find what specific part of the input caused the error; this is done with **reduction**. 
+
+One method of reduction is to take a **divide and conquer** approach - that is, split the input in half and see if using either half as an input causes the program to fail. This approach isn't the best to take for larger inputs, as it doesn't cut the input into small enough sections. 
+
+The other option would be to remove on character at a time, but this approach is much too inefficient when using large inputs. A combination of these two approches would be the best - that is where **delta debugging** comes into play.
+
+Similar to the divide and conquer approach, delta debugging splits the input in half, but it goes further. If neither half causes an error, it reduces the input even further; cutting away smaller and smaller sections until it is removing one character at a time.
+
+This approach to debugging is extememly useful, as it is both efficient and effective. We could use this debugging process when trying figure out why large inputs caused our programs to crash and/or throw errors.
+
+:::
+
+{{< include /_back-blog.qmd >}}
