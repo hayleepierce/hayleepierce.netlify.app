@@ -1,0 +1,27 @@
+---
+author: Haylee Pierce
+title: SE10 - "Documentation"
+date: '11/30/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 10]
+description: <em>My week 10 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["Documentation"](https://abseil.io/resources/swe-book/html/ch10.html) chapter of _Software Engineering_ emphasises the importance of quality documentation.
+
+Documentation allows for a project to progress much smoother than it would without it. With documentation the team can understand code written by their fellow team members, without needing it explained to them directly. New member also have an easier time understanding and working on projects/code that is well documented. Documentation also allows for programmers to come back to code they wrote years previously, without much confusion. Although, because these benefits are not seen immediately, engineers often don't want to take the time to write quality documentation.
+
+There are many forms of documentation and they all have a specific purpose:
+
+- Reference Documenation: anything that documents the usage of code within the codebase (e.g. code comments)
+- Design Docs: collaborative documents used to cover the project's goal, implementation strategey, trade-offs, and more
+- Turtorials: used to catch new team members up to speed and/or show a user how to use the tool
+- Conceptual Documentation: provides an overview of the APIs or systems
+- Landing Pages: a page on a company's website pointing people to a more specific form of documentation
+
+It is extremely important that we have quality documentation for both tools, Chasten and Cellveyor. Without proper documentation, it is likely that the code will be forgotten about, as the next group of people who attempt to work on the tool will be unable to understand what the code is doing. If we don't want all our hard work to be throw away, we need to ensure we document _everything_ well.
+:::
+
+{{< include /_back-blog.qmd >}}
