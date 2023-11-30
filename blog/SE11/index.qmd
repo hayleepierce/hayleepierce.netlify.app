@@ -1,0 +1,28 @@
+---
+author: Haylee Pierce
+title: SE11 - "Testing Overview"
+date: '11/30/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 11]
+description: <em>My week 11 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["Testing Overview"](https://abseil.io/resources/swe-book/html/ch11.html) chapter of _Software Engineering_ gives an overview of the process of testing.
+
+Testing is an extremely important part of developing a program. Testing your program greatly reduces the likelyhood of the users running into errors after the program is deployed. Tests are often done via a _test suit_, hundreds or thousands of simple tests that cover a good portion of the program's code. The cosequences of bad tests, or no tests at all, can include loss of money, property, or even lives.
+
+Testing code comes with many benefits:
+
+- Less debugging
+- Increaded confidence in changes
+- Improved documentation
+- Simpler reviews
+- Thoughtful design
+- Fast, high-quality releases
+
+While our tools, Chasten and Cellveyor, are pretty small and simple when compared to the work of Google, ensuring that we test our code is important. This course is used to simulate a software start-up company, the tools we are working on could benefit the computer science faculty and students that come after us; therefore, we should ensure the we make the best quality of tools we can with our limited time (that means writing a good test suit).
+:::
+
+{{< include /_back-blog.qmd >}}
