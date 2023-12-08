@@ -1,0 +1,25 @@
+---
+author: Haylee Pierce
+title: SE12 - "Unit Testing"
+date: '12/8/2023'
+date-format: MM/DD/YYYY
+categories: [Software Engineering at Google, Week 12]
+description: <em>My week 12 professional précis for Software Engineering at Google.</em>
+---
+
+::: {.justify}
+
+The ["Unit Testing"](https://abseil.io/resources/swe-book/html/ch12.html) chapter of _Software Engineering_ covers the implmentation of unit tests.
+
+_Unit test_ are tests for smaller portions of the codebase, such as a single class or method. These tests are fast, both to run and write. The implementation of unit tests often leads to higher test coverage, as they can be quickly added to the codebase. They also act as a form of documentation; showing how the code is intended to work.
+
+It is important that all unit test not be _brittle_ or _unclear_. 
+
+Brittle tests are tests that fails when a change is made to code, despite the change not introducing any real bugs. Brittle test can be avoided by ensuring that the tests will not need to be changed after it is written. 
+
+Unclear tests do not provide an output displaying the reason from failure. The purpose of a test is to ensure that the code is running as it is intended. Although, if the test fails and doesn't show why, the issue cannot be found and fixed.
+
+The content of this chapter could be useful when creating a test suite for tools such as chasten and cellveyor. Not only are unit test faster to implement and run, but they also allow the programmer to focus on one specific spot in the codebase. Unit testing are typically more efficent than wide-scale testing of the entire codebase.
+:::
+
+{{< include /_back-blog.qmd >}}
