@@ -13,7 +13,7 @@ The ["Asserting Expectations"](https://www.debuggingbook.org/html/Assertions.htm
 
 Assertions check for specific condition(s) when the program is run. Should the condition(s) not be meet an `AssertionError` occurs. Assertions are done with the `assert` statement in python. Assertions are often used to create test cases. Below is an example of a test case using `assert`:
 
-```{python}
+```python
 # function to test
 def add(a: int, b: int) -> int:
     c = a + b
@@ -28,10 +28,16 @@ def test_add() -> None:
 # run the test case
 test_add()
 ```
+```
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in test_add
+AssertionError
+```
 
 As you can see the test case `test_add()` raises an `AssertionError`. This is caused by a bug in the `add()` function. Now lets fix the bug and re-run the test:
 
-```{python}
+```python
 # function to test
 def add(a: int, b: int) -> int:
     c = a + b
