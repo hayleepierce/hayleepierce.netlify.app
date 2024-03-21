@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Welcome!"
 echo: true
 jupyter: python3
 section-divs: true
@@ -12,10 +12,4 @@ execute:
   freeze: auto
 ---
 
-::: {.justify}
-
-Hello! My name is Haylee Pierce and this is my personal website. I am currently a junior at Allegheny College, majoring in Computer Science and double minoring in Pyschology and Writing. Feel free to explore and send me an email at _pierce03@allegheny.edu_.
-
-:::
-
-![](images/profilepic.jpg){fig-align="center"}
+![](icons/logo.jpg){fig-align="center"}
