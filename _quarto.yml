@@ -26,8 +26,8 @@ website:
   back-to-top-navigation: false
   navbar:
     left:
-      - href: blog/index.qmd
-        text: Blog
+      - href: about_me/index.qmd
+        text: About Me
 
 format:
   html:
@@ -36,8 +36,7 @@ format:
     # and builds will normally crash with an out
     # of memory error from the JavaScript runtime
     embed-resources: false
-    mainfont: Noto Sans
-    monofont: Noto Sans Mono
+    mainfont: Almarai
     fontsize: 1.375em
     theme:
         - united
