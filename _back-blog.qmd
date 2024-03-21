@@ -1,1 +1,0 @@
-{{< fa circle-left >}} <a href='/blog/'>Return to Blog Post Listing</a>

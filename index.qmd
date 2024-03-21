@@ -1,5 +1,5 @@
 ---
-title: "Welcome!"
+title: ""
 echo: true
 jupyter: python3
 section-divs: true
@@ -11,5 +11,9 @@ title-block-banner: false
 execute:
   freeze: auto
 ---
+
+::: {.center}
+**Welcome!**
+:::
 
 ![](icons/logo.jpg){fig-align="center"}
