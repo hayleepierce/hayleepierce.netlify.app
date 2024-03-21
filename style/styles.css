@@ -1,0 +1,22 @@
+/* CSS styles */
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Basic Components {{{ */
+
+body {
+  background-color: white;
+  font-size: 0.9rem;
+}
+
+/* Navbar: Header */
+
+.navbar :hover {
+  color: black;
+}

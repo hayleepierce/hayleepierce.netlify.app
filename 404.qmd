@@ -1,19 +1,7 @@
 ---
-title: Sorry, this Page is Not Available!
+title: Page Not Found
 echo: true
 title-block-style: default
 title-block-banner: false
 jupyter: python3
 ---
-
-```{python}
-from rich.console import Console
-console = Console()
-console.print(
-    ":man_facepalming: Good grief, this page is not available! Try another link?"
-)
-```
-
-The page that you were looking for is not available on the [Haylee Pierce's personal
-website](https://hayleepierce.netlify.app/). Please use the menu at the top of
-the page to find an available resource!

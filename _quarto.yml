@@ -10,55 +10,36 @@ project:
     navigate: false
 
 website:
-  title: "Haylee Pierce"
+  title: "Home"
   page-navigation: true
-  favicon: "icons/logo.jpg"
-  open-graph: true
+  favicon: "icons/logo.png"
   site-url: https://hayleepierce.netlify.app
-  repo-url: https://github.com/hayleepierce/hayleepierce.netlify.app
-  issue-url: https://github.com/hayleepierce/hayleepierce.netlify.app/issues/new
-  repo-actions: [source, edit, issue]
-  repo-branch: "master"
   search:
     location: navbar
     type: textbox
-  reader-mode: false
-  back-to-top-navigation: false
   navbar:
     left:
-      - href: about_me/index.qmd
+      - href: about_me/about.qmd
         text: About Me
+      - href: projects/index.qmd
+        text: Projects
+  page-footer:
+      center:
+          - text: Source Code
+            href: https://github.com/hayleepierce/hayleepierce.netlify.app
+          - text: Report An Issue
+            href: https://github.com/hayleepierce/hayleepierce.netlify.app/issues/new
 
 format:
   html:
-    # do not use embed-resources: true because this
-    # causes build times to take a very long time
-    # and builds will normally crash with an out
-    # of memory error from the JavaScript runtime
-    embed-resources: false
-    mainfont: Almarai
-    fontsize: 1.375em
-    theme:
-        - united
-        - united-light.scss
-    css: styles.css
-    toc: true
-    toc-title: "Contents"
-    code-copy: hover
-    code-overflow: wrap
-    code-fold: false
-    code-tools: false
-    highlight-style: gruvbox
-    email-obfuscation: javascript
-    # note: smooth-scroll must false so as to
-    # ensure that the back to top button
-    # in the footer of the page works correctly
-    smooth-scroll: false
-    citations-hover: true
-    footnotes-hover: true
-    citeproc: true
-    appendix-style: default
-    # highlight external links in a special fashion
-    # and always open them in a new browser window
+    theme: 
+      - cosmo
+      - style/custom.scss
+    mainfont: sans-serif
+    fontsize: 1.5em
+    fontcolor: black
+    backgroundcolor: white
+    css: style/styles.css
+    smooth-scroll: true
     link-external-icon: true
     link-external-newwindow: true
