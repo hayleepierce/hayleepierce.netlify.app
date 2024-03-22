@@ -23,12 +23,16 @@ website:
         text: About Me
       - href: projects/index.qmd
         text: Projects
+      - href: writing/index.qmd
+        text: Writing
   page-footer:
       center:
           - text: Source Code
             href: https://github.com/hayleepierce/hayleepierce.netlify.app
           - text: Report An Issue
             href: https://github.com/hayleepierce/hayleepierce.netlify.app/issues/new
+          - text: Contact Me
+            href: contact/index.qmd
 
 format:
   html:
