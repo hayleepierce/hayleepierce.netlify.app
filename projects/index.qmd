@@ -1,0 +1,8 @@
+---
+title: "Projects"
+toc: true  
+---
+
+## Corpus Comb
+
+**Corpus Comb** originated as a project given to the Allegheny students in the 2024 Junior Seminar. I decided to take the project beyond the requirements of the course and am now in the process of making it the artifact for my Senior Thesis. **Corpus Comb** consists of a dashboard where the user can search for a word or phrase. A customizable corpus is then scanned for any presence of the word, phrase, or any combination of words used in the search. The top five results are displayed to the user. Check out the current build [here](https://github.com/CMPSC-580-Allegheny-College-Spring-2024/exemplarproject-hayleepierce)!
