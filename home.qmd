@@ -1,9 +1,0 @@
----
-title: ""
----
-
-::: {.center}
-# Welcome!
-:::
-
-![](icons/logo.png){fig-align="center" height=2.5in}
