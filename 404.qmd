@@ -1,7 +1,9 @@
 ---
 title: Page Not Found
-echo: true
-title-block-style: default
-title-block-banner: false
-jupyter: python3
 ---
+
+The page you're looking for no longer exists.
+
+```{=html}
+<button class="btn btn-lg btn-primary" type="button">Return Home</button>
+```
